@@ -231,7 +231,10 @@ M.extensions = {
     ["inp"] = function()
         vim.cmd([[call dist#ft#Check_inp()]])
     end,
-    ["asm"] = function()
+    ["asm"]= function()
+        vim.cmd([[call dist#ft#FTasm()]])
+    end,
+    ["nasm"]= function()
         vim.cmd([[call dist#ft#FTasm()]])
     end,
     ["s"] = function()
