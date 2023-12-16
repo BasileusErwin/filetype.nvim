@@ -391,6 +391,7 @@ M.extensions = {
         vim.cmd([[call dist#ft#SetFileTypeSH(getline(1))]])
     end,
     ["sh"] = function()
+      print("sh")
         vim.cmd([[call dist#ft#SetFileTypeSH(getline(1))]])
     end,
     ["env"] = function()

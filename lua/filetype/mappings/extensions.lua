@@ -7,6 +7,7 @@ return {
     ["BUILD"] = "bzl",
     ["C"] = "cpp",
     ["c"] = "c",
+    ["h"] = "c",
     ["DEF"] = "modula2",
     ["Dockerfile"] = "dockerfile",
     ["EC"] = "esqlc",
@@ -645,6 +646,7 @@ return {
     ["yml"] = "yaml",
     ["z8a"] = "z8a",
     ["zsh"] = "zsh",
+    ["sh"] = "sh",
     ["zu"] = "zimbu",
     ["zut"] = "zimbutempl",
 }
